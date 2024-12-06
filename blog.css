@@ -1,0 +1,37 @@
+html{
+    background-color: bisque;
+}
+header{
+    width: 100%;
+    height: 30%;
+    background-color: white;
+}
+#imagenprincipal{
+    display: flex;
+    margin: auto;
+    justify-content: center;
+}
+nav ul{
+    display: flex;
+    background-color: blueviolet;
+    flex-direction: row;
+    justify-content: space-between;
+    list-style-type: none;
+    text-decoration: none;
+    font-size: 30px;
+}
+li a:link{
+    color: white;
+    text-decoration: none;
+}
+li a:hover{
+    display: block;
+    background-color: aqua;
+    font-family: cursive;
+    font-weight: bold;
+    padding: 2px;
+}
+li a:visited{
+    color: white;
+    text-decoration: none;
+}
